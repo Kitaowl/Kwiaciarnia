@@ -43,7 +43,7 @@
 
             $row = $result->fetch_assoc();
 
-            echo "<h3 id=\"naglowek\">" . $row['nazwa'] . ", " . $row['ulica'] . "</h3>";
+            echo "<h3>" . $row['nazwa'] . ", " . $row['ulica'] . "</h3>";
 
             $conn->close();
         ?>
@@ -53,4 +53,5 @@
         <p>Stronę opracował: 00000000000</p>
     </footer>
 </body>
+
 </html>
